@@ -1,0 +1,48 @@
+# ── Java / Spring Boot ──────────────────────────────────────────────
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# Gradle (if you ever switch)
+.gradle/
+build/
+
+# Spring Boot DevTools restart file
+.spring-boot-devtools.properties
+
+# ── Angular / TypeScript ─────────────────────────────────────────────
+node_modules/
+dist/
+.angular/
+*.js.map
+
+# ── Environment & secrets ────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+
+# ── IDEs ─────────────────────────────────────────────────────────────
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ── OS ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
